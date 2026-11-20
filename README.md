@@ -1,1 +1,213 @@
-# superbodega.eliminacion.ec
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliminación de cuenta — Superbodega</title>
+  <meta name="description" content="Cómo solicitar la eliminación de tu cuenta de Superbodega y de los datos asociados.">
+  <style>
+    :root {
+      /* Cambia --acento por el color de marca de Superbodega */
+      --acento: #d62828;
+      --texto: #1f2328;
+      --texto-suave: #57606a;
+      --fondo: #f6f7f9;
+      --tarjeta: #ffffff;
+      --borde: #e1e4e8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--fondo);
+      color: var(--texto);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    header {
+      background: var(--acento);
+      color: #fff;
+      padding: 32px 16px;
+    }
+    header .contenido, main {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    header h1 { margin: 0 0 8px; font-size: 1.7rem; line-height: 1.25; }
+    header p { margin: 0; opacity: .95; }
+    main { padding: 24px 16px 48px; }
+    section {
+      background: var(--tarjeta);
+      border: 1px solid var(--borde);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+    }
+    h2 { margin: 0 0 12px; font-size: 1.2rem; color: var(--acento); }
+    p { margin: 0 0 12px; }
+    p:last-child, ul:last-child, ol:last-child { margin-bottom: 0; }
+    ul, ol { margin: 0 0 12px; padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--acento); }
+    .ficha { color: var(--texto-suave); font-size: .95rem; }
+    .capturas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .capturas figure { margin: 0; text-align: center; }
+    .capturas img {
+      width: 100%;
+      border: 1px solid var(--borde);
+      border-radius: 10px;
+      display: block;
+    }
+    .capturas figcaption { font-size: .85rem; color: var(--texto-suave); margin-top: 6px; }
+    .sin-imagen {
+      border: 2px dashed var(--borde);
+      border-radius: 10px;
+      padding: 48px 8px;
+      font-size: .85rem;
+      color: var(--texto-suave);
+    }
+    .aviso {
+      border-left: 4px solid var(--acento);
+    }
+    /* Resalta lo que falta completar. Al terminar no debe quedar ninguno. */
+    .pendiente { background: #fff3a3; padding: 0 3px; border-radius: 3px; }
+    footer {
+      text-align: center;
+      color: var(--texto-suave);
+      font-size: .85rem;
+      padding: 0 16px 32px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="contenido">
+      <h1>Eliminación de cuenta — Superbodega</h1>
+      <p>Cómo solicitar la eliminación de tu cuenta y de los datos asociados.</p>
+    </div>
+  </header>
+
+  <main>
+
+    <section>
+      <p class="ficha">
+        <strong>Aplicación:</strong> <span class="pendiente">[nombre exacto de la app en Google Play]</span><br>
+        <strong>Desarrollador:</strong> <span class="pendiente">[nombre del desarrollador en Google Play]</span>
+      </p>
+      <p>
+        Puedes eliminar tu cuenta de Superbodega en cualquier momento, desde la propia
+        aplicación o escribiéndonos si ya no la tienes instalada.
+      </p>
+    </section>
+
+    <section>
+      <h2>Opción 1: Eliminar tu cuenta desde la aplicación</h2>
+      <ol>
+        <li>Abre la app <strong>Superbodega</strong> e inicia sesión.</li>
+        <li>Ve a la sección <strong>Cuenta</strong>.</li>
+        <li>Entra en la opción de perfil («Tus datos, contraseña y eliminar cuenta»).</li>
+        <li>Pulsa <strong>Eliminar cuenta</strong>.</li>
+        <li>Lee la advertencia y escribe la palabra <strong>delete</strong> en el campo de confirmación.</li>
+        <li>Confirma. Tu sesión se cerrará y la cuenta quedará eliminada.</li>
+      </ol>
+
+      <!-- Capturas: guarda tus imágenes en la carpeta img/ con estos nombres
+           (o cambia el src). Puedes añadir o quitar bloques <figure>. -->
+      <div class="capturas">
+        <figure>
+          <img src="img/paso-1.png" alt="Sección Cuenta de la app Superbodega">
+          <figcaption>Sección Cuenta</figcaption>
+        </figure>
+        <figure>
+          <img src="img/paso-2.png" alt="Botón Eliminar cuenta en la pantalla de perfil">
+          <figcaption>Botón «Eliminar cuenta»</figcaption>
+        </figure>
+        <figure>
+          <img src="img/paso-3.png" alt="Diálogo de confirmación para eliminar la cuenta">
+          <figcaption>Confirmación</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Opción 2: Solicitar la eliminación sin usar la aplicación</h2>
+      <p>
+        Si ya no tienes la app instalada o no puedes acceder a tu cuenta, escribe a
+        <a class="pendiente" href="mailto:CORREO_DE_SOPORTE?subject=Eliminar%20cuenta%20Superbodega">[correo de soporte]</a>
+        con el asunto «Eliminar cuenta Superbodega» e indica:
+      </p>
+      <ul>
+        <li>Nombre completo</li>
+        <li>Correo electrónico o número de teléfono con el que te registraste</li>
+      </ul>
+      <p>
+        Atenderemos tu solicitud en un plazo máximo de
+        <strong class="pendiente">[X] días hábiles</strong> y te confirmaremos por el mismo medio.
+      </p>
+    </section>
+
+    <section>
+      <h2>Datos que se eliminan</h2>
+      <ul>
+        <li>Datos de perfil: nombre, correo electrónico, teléfono <span class="pendiente">[y otros datos que recopiles]</span></li>
+        <li>Direcciones de entrega guardadas</li>
+        <li>Credenciales de acceso</li>
+        <li>Configuraciones y preferencias de la cuenta</li>
+        <li>Historial de pedidos asociado a tu cuenta <span class="pendiente">[confirmar con backend si se borra o se conserva]</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Datos que se conservan</h2>
+      <ul>
+        <li>
+          Comprobantes de venta y registros de facturación, que se conservan durante
+          <strong class="pendiente">[plazo, p. ej. 7 años]</strong> por obligación legal y tributaria.
+        </li>
+        <li class="pendiente">[otros datos conservados y su plazo, o elimina esta línea]</li>
+      </ul>
+    </section>
+
+    <section class="aviso">
+      <h2>Importante</h2>
+      <p>
+        La eliminación es <strong>permanente e irreversible</strong>. Si quieres volver a usar
+        Superbodega, tendrás que crear una cuenta nueva.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>
+        <a class="pendiente" href="mailto:CORREO_DE_SOPORTE">[correo de soporte]</a>
+        <span class="pendiente">· [teléfono o WhatsApp, opcional]</span>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="anio"></span> <span class="pendiente">[nombre del desarrollador]</span>
+  </footer>
+
+  <script>
+    document.getElementById('anio').textContent = new Date().getFullYear();
+    // Si una captura aún no existe, muestra un recuadro en lugar de la imagen rota.
+    document.querySelectorAll('.capturas img').forEach(function (img) {
+      img.addEventListener('error', function () {
+        var hueco = document.createElement('div');
+        hueco.className = 'sin-imagen';
+        hueco.textContent = 'Falta ' + img.getAttribute('src');
+        img.replaceWith(hueco);
+      });
+    });
+  </script>
+
+</body>
+</html>
