@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Eliminación de cuenta — Superbodega</title>
-  <meta name="description" content="Cómo solicitar la eliminación de tu cuenta de Superbodega y de los datos asociados.">
+  <meta name="description"
+    content="Cómo solicitar la eliminación de tu cuenta de Superbodega y de los datos asociados.">
   <style>
     :root {
       /* Cambia --acento por el color de marca de Superbodega */
@@ -15,7 +17,11 @@
       --tarjeta: #ffffff;
       --borde: #e1e4e8;
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       background: var(--fondo);
@@ -24,18 +30,34 @@
       font-size: 16px;
       line-height: 1.6;
     }
+
     header {
       background: var(--acento);
       color: #fff;
       padding: 32px 16px;
     }
-    header .contenido, main {
+
+    header .contenido,
+    main {
       max-width: 760px;
       margin: 0 auto;
     }
-    header h1 { margin: 0 0 8px; font-size: 1.7rem; line-height: 1.25; }
-    header p { margin: 0; opacity: .95; }
-    main { padding: 24px 16px 48px; }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 1.7rem;
+      line-height: 1.25;
+    }
+
+    header p {
+      margin: 0;
+      opacity: .95;
+    }
+
+    main {
+      padding: 24px 16px 48px;
+    }
+
     section {
       background: var(--tarjeta);
       border: 1px solid var(--borde);
@@ -43,27 +65,67 @@
       padding: 20px 24px;
       margin-bottom: 16px;
     }
-    h2 { margin: 0 0 12px; font-size: 1.2rem; color: var(--acento); }
-    p { margin: 0 0 12px; }
-    p:last-child, ul:last-child, ol:last-child { margin-bottom: 0; }
-    ul, ol { margin: 0 0 12px; padding-left: 22px; }
-    li { margin-bottom: 6px; }
-    a { color: var(--acento); }
-    .ficha { color: var(--texto-suave); font-size: .95rem; }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.2rem;
+      color: var(--acento);
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    p:last-child,
+    ul:last-child,
+    ol:last-child {
+      margin-bottom: 0;
+    }
+
+    ul,
+    ol {
+      margin: 0 0 12px;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    a {
+      color: var(--acento);
+    }
+
+    .ficha {
+      color: var(--texto-suave);
+      font-size: .95rem;
+    }
+
     .capturas {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       gap: 12px;
       margin-top: 16px;
     }
-    .capturas figure { margin: 0; text-align: center; }
+
+    .capturas figure {
+      margin: 0;
+      text-align: center;
+    }
+
     .capturas img {
       width: 100%;
       border: 1px solid var(--borde);
       border-radius: 10px;
       display: block;
     }
-    .capturas figcaption { font-size: .85rem; color: var(--texto-suave); margin-top: 6px; }
+
+    .capturas figcaption {
+      font-size: .85rem;
+      color: var(--texto-suave);
+      margin-top: 6px;
+    }
+
     .sin-imagen {
       border: 2px dashed var(--borde);
       border-radius: 10px;
@@ -71,11 +133,18 @@
       font-size: .85rem;
       color: var(--texto-suave);
     }
+
     .aviso {
       border-left: 4px solid var(--acento);
     }
+
     /* Resalta lo que falta completar. Al terminar no debe quedar ninguno. */
-    .pendiente { background: #fff3a3; padding: 0 3px; border-radius: 3px; }
+    .pendiente {
+      background: #fff3a3;
+      padding: 0 3px;
+      border-radius: 3px;
+    }
+
     footer {
       text-align: center;
       color: var(--texto-suave);
@@ -84,6 +153,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <header>
@@ -97,8 +167,8 @@
 
     <section>
       <p class="ficha">
-        <strong>Aplicación:</strong> <span class="pendiente">[nombre exacto de la app en Google Play]</span><br>
-        <strong>Desarrollador:</strong> <span class="pendiente">[nombre del desarrollador en Google Play]</span>
+        <strong>Aplicación:</strong> <span class="pendiente">Superbodega</span><br>
+        <strong>Desarrollador:</strong> <span class="pendiente">Quipu Ecuador</span>
       </p>
       <p>
         Puedes eliminar tu cuenta de Superbodega en cualquier momento, desde la propia
@@ -139,7 +209,8 @@
       <h2>Opción 2: Solicitar la eliminación sin usar la aplicación</h2>
       <p>
         Si ya no tienes la app instalada o no puedes acceder a tu cuenta, escribe a
-        <a class="pendiente" href="mailto:CORREO_DE_SOPORTE?subject=Eliminar%20cuenta%20Superbodega">[correo de soporte]</a>
+        <a class="pendiente"
+          href="mailto:CORREO_DE_SOPORTE?subject=Eliminar%20cuenta%20Superbodega">quipu.ecuador2022@gmail.com</a>
         con el asunto «Eliminar cuenta Superbodega» e indica:
       </p>
       <ul>
@@ -148,18 +219,17 @@
       </ul>
       <p>
         Atenderemos tu solicitud en un plazo máximo de
-        <strong class="pendiente">[X] días hábiles</strong> y te confirmaremos por el mismo medio.
+        <strong class="pendiente">7 días hábiles</strong> y te confirmaremos por el mismo medio.
       </p>
     </section>
 
     <section>
       <h2>Datos que se eliminan</h2>
       <ul>
-        <li>Datos de perfil: nombre, correo electrónico, teléfono <span class="pendiente">[y otros datos que recopiles]</span></li>
+        <li>Datos de perfil: nombre, correo electrónico, teléfono, nombre comercial y cumpleaños</li>
         <li>Direcciones de entrega guardadas</li>
         <li>Credenciales de acceso</li>
         <li>Configuraciones y preferencias de la cuenta</li>
-        <li>Historial de pedidos asociado a tu cuenta <span class="pendiente">[confirmar con backend si se borra o se conserva]</span></li>
       </ul>
     </section>
 
@@ -168,9 +238,8 @@
       <ul>
         <li>
           Comprobantes de venta y registros de facturación, que se conservan durante
-          <strong class="pendiente">[plazo, p. ej. 7 años]</strong> por obligación legal y tributaria.
+          <strong class="pendiente">3 meses</strong> por obligación legal y tributaria.
         </li>
-        <li class="pendiente">[otros datos conservados y su plazo, o elimina esta línea]</li>
       </ul>
     </section>
 
@@ -185,15 +254,15 @@
     <section>
       <h2>Contacto</h2>
       <p>
-        <a class="pendiente" href="mailto:CORREO_DE_SOPORTE">[correo de soporte]</a>
-        <span class="pendiente">· [teléfono o WhatsApp, opcional]</span>
+        <a class="pendiente" href="mailto:CORREO_DE_SOPORTE">quipu.ecuador2022@gmail.com</a>
+        <span class="pendiente">· +593998547734</span>
       </p>
     </section>
 
   </main>
 
   <footer>
-    © <span id="anio"></span> <span class="pendiente">[nombre del desarrollador]</span>
+    © <span id="anio"></span> <span class="pendiente">Quipu Ecuador</span>
   </footer>
 
   <script>
@@ -210,4 +279,5 @@
   </script>
 
 </body>
+
 </html>
